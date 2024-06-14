@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    color: rgb(95, 87, 78);
+    display: grid;
+    font-family: 'Outfit';
+    line-height: 1.5;
+}
+
+hr{
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+
+img{
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.imagem-receita{
+    padding: 30px;
+}
+
+.container{
+    max-width: 700px;
+    background: rgb(255, 255, 255);
+    margin: 60px auto;
+    border-radius: 15px;
+    padding-bottom: 30px;
+}
+
+.receita{
+    padding: 0 30px;
+}
+
+.passos-receita{
+    margin: 0;
+}
+
+h1{
+    color: rgb(48, 45, 44);
+    font-family: 'Young Serif';
+    font-size: 38px;
+    margin: 0 0 15px;
+}
+
+p{
+    font-size: 16px;
+}
+
+.preparacao{
+    background-color: rgb(255, 245, 250);
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.preparacao ul li{
+    margin: 0 15px 8px;
+}
+
+.preparacao ul li::marker{
+    color: rgb(123, 40, 79);
+}
+
+.preparacao span{
+    font-weight: bold;
+}
+
+h3{
+    color: rgb(123, 40, 79);
+    margin: 10px 15px;
+}
+
+
+h2{
+    color: rgb(133, 70, 50);
+    font-family: 'Young Serif';
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+ul li::marker{
+    color: rgb(133, 70, 50);
+}
+ul li span{
+    margin-left: 12px;
+}
+
+ul li{
+    margin-bottom: 8px;
+}
+
+ul{
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+
+.nutrition{
+    margin-bottom: 20px;
+}
+
+.item{
+    margin-left: 4px;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.item p{
+    margin-left: 18px;
+}
+
+.item p span{
+    font-weight: bold
+}
+
+.num{
+    font-weight: bold;
+    color: rgb(133, 70, 50);
+}
+
+.descricao-nutricao{
+    margin-bottom: 20px;
+}
+.tabela-nutricional .item{
+    margin-left: 40px;
+    width: 100px;
+    display: flex;
+}
+
+.descricao{
+    width: 10px;
+}
+.item .valores{
+    color: rgb(133, 70, 50);
+    font-weight: bold;
+    margin-left: 270%;
+}
+
+.item{
+    margin-bottom: px;
+}
+
+.tabela-nutricional hr{
+    margin-bottom: 8px;
+}
+
